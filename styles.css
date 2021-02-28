@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+a,
+a:visited {
+  color: #CE663D;
+}
+
 .logo {
 }
 
@@ -13,6 +18,7 @@
 
 .title1 {
   font-size: 40px;
+  color: #2055A6;
 }
 
 .text1 {
@@ -23,6 +29,7 @@
 .intro {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 80%;
   margin: auto;
   padding-top: 100px;
@@ -36,9 +43,36 @@
   padding: 50px;
 }
 
+.get,
+.search {
+  color: #2055A6;
+}
+
+.player_head {
+  display: flex;
+  color: #2055A6;
+  margin-bottom: 10px;
+}
+
+.player_info {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  color: #CE663D;
+  border: 2px solid #2055A6;
+}
+
+.player,
+.height,
+.position {
+  margin: auto;
+  width: 600px;
+  text-align: center;
+}
+
 .applybutton {
   margin-left: 13.75%;
-  background-color: #0000FF;
+  background-color: #CE663D;
   border: none;
   color: white;
   padding: 12px 32px;
@@ -46,6 +80,10 @@
   text-decoration: none;
   font-size: 16px;
   border-radius: 20px;
+}
+
+.wilson {
+  width: 200px;
 }
 
 .header6 {
@@ -70,8 +108,56 @@
 
 form {
   padding-top: 50px;
-  width: 60%;
+  text-align: center;
+}
+
+h2 {
   margin: auto;
+  padding-top: 50px;
+  width: 600px;
+  text-align: center;
+}
+h3 {
+  margin: auto;
+  width: 600px;
+  text-align: center;
+}
+
+.games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.game_info {
+  width: 350px;
+  margin: 10px;
+  text-align: center;
+  border: 2px solid #2055A6;
+  color: #CE663D;
+}
+
+.teams {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.team {
+  text-align: center;
+  width: 150px;
+}
+
+.scores {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.score {
+  text-align: center;
+  width: 150px;
 }
 
 .applybutton2 {
