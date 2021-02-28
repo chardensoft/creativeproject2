@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+}
+
+.nav-item {
+  font-size: 25px;
+}
+
+.title1 {
+  font-size: 40px;
+}
+
+.text1 {
+  font-size: 20px;
+  line-height: 2;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.content {
+  padding: 50px;
+}
+
+.image {
+  padding: 50px;
+}
+
+.applybutton {
+  margin-left: 13.75%;
+  background-color: #0000FF;
+  border: none;
+  color: white;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.header6 {
+  width: 100%;
+  margin-top: 150px;
+  text-align: center;
+  height: 150px;
+  padding-top: 50px;
+}
+
+.apply {
+  width: 100%;
+  background-color: #0000FF;
+  text-align: center;
+}
+
+.title2 {
+  color: white;
+  padding: 100px;
+  font-size: 40px;
+}
+
+form {
+  padding-top: 50px;
+  width: 60%;
+  margin: auto;
+}
+
+.applybutton2 {
+  margin-left: 42.5%;
+  width: 175px;
+  background-color: #0000FF;
+  border: none;
+  color: white;
+  padding: 12px 0px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.funded {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+.title3 {
+  color: black;
+  padding: 100px;
+  font-size: 40px;
+}
+
+.companies {
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+  flex-wrap: wrap;
+  margin-left: 13%;
+}
+
+.company {
+  padding: 25px;
+  margin: 25px;
+  border: 1px solid gray;
+}
+
+.board {
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
+  flex-wrap: wrap;
+  margin-left: 13%;
+}
+
+.person {
+  padding: 25px;
+  margin: 25px;
+}
+
+.applybutton:hover,
+.applybutton2:hover {
+  cursor: pointer;
+}
+
+.activities {
+  padding-left: 50px;
+}
+
+.comp_link:hover {
+  cursor: pointer;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+}
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+}
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+}
