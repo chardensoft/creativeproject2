@@ -9,9 +9,6 @@ a:visited {
   color: #CE663D;
 }
 
-.logo {
-}
-
 .nav-item {
   font-size: 25px;
 }
@@ -48,7 +45,13 @@ a:visited {
   color: #2055A6;
 }
 
+.players {
+  width: 80%;
+  margin: auto;
+}
+
 .player_head {
+  padding-top: 25px;
   display: flex;
   color: #2055A6;
   margin-bottom: 10px;
@@ -64,9 +67,14 @@ a:visited {
 
 .player,
 .height,
-.position {
+.position,
+.gp,
+.min,
+.pts,
+.ast,
+.reb {
   margin: auto;
-  width: 600px;
+  width: 700px;
   text-align: center;
 }
 
@@ -226,11 +234,65 @@ h3 {
 }
 
 /* Mobile Styles */
-@media only screen and (max-width: 400px) {
-}
-/* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (max-width: 750px) {
+  form {
+    width: 300px;
+    margin: auto;
+  }
+  .player_info {
+    display: block;
+  }
+  .player,
+  .height,
+  .position,
+  .gp,
+  .min,
+  .pts,
+  .ast,
+  .reb {
+    width: 50%;
+    margin: auto;
+  }
+  .player_head {
+    width: 75%;
+    margin: auto;
+    flex-direction: column;
+  }
+  .player_header {
+    width: 100%;
+  }
+  .get,
+  .search {
+    width: 350px;
+    margin: auto;
+  }
+  .logo {
+    width: 200px;
+  }
+  .intro {
+    flex-direction: column;
+    width: 95%;
+  }
+  .content {
+    width: 100%;
+    padding: 0;
+  }
+  .applybutton {
+    margin: 0;
+  }
+  .buttonfix {
+    display: flex;
+    justify-content: space-around;
+  }
+  .title1 {
+    display: block;
+    width: 100% !important;
+    text-align: center;
+  }
+  .text1 {
+    text-align: center;
+  }
 }
 /* Desktop Styles */
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width: 751px) {
 }

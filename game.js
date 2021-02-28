@@ -28,5 +28,8 @@ document.getElementById("dateSubmit").addEventListener("click", function(event) 
       }
       results += '</div';
       document.getElementById("gameResults").innerHTML = results;
+    }).catch(function(error) {
+      let results = '<h2>No Data</h2>';
+      document.getElementById("gameResults").innerHTML = results;
     });
 });
